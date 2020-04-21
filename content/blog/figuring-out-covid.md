@@ -1,7 +1,7 @@
 ---
 title: "Figuring Out Covid"
 date: 2020-04-21T02:16:59-07:00
-draft: true
+draft: false
 ---
 
 # Context
