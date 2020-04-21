@@ -1,0 +1,19 @@
+baseURL = "https://aindoria.com"
+languageCode = "en-us"
+title = "Abe Indoria"
+theme="kiss-em"
+
+[params.social]
+github = "aindoria"
+email = "indoria+blog@aindoria.com"
+linkedin = "aindoria"
+instagram = "aindoria"
+
+[params.social.config]
+platforms = ["github","instagram","email","linkedin"]
+
+[params.rss] # Adding this tag enables RSS feed
+includeContent = true # Includes whole content in rss
+authorName = "Abe Indoria" # Author full name
+authorEmail = "indoria+blog@aindoria.com" # Author email
+
