@@ -1,13 +1,19 @@
-baseURL = "https://aindoria.com"
+baseURL = "https://aindoria.com/blog"
 languageCode = "en-us"
 title = "Abe Indoria"
 theme="kiss-em"
+Paginate = 5 # Number of posts per page
+enableRobotsTXT = true
+defaultContentLanguage = "en"
 
 [params.social]
 github = "aindoria"
 email = "indoria+blog@aindoria.com"
 linkedin = "aindoria"
 instagram = "aindoria"
+
+[taxonomies]
+tag ="tags"
 
 [params.social.config]
 platforms = ["github","instagram","email","linkedin"]
@@ -17,3 +23,8 @@ includeContent = true # Includes whole content in rss
 authorName = "Abe Indoria" # Author full name
 authorEmail = "indoria+blog@aindoria.com" # Author email
 
+
+[params.info]
+poweredby = false 
+related = true 
+copyright = "© <a href=\"https://github.com/aindoria\">Abe Indoria</a> 2020"
